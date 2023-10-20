@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+.submit-button {
+background-color: blue;
+color: white;
+padding: 10px 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 13px;
+display: block;
+margin-left: 640px;
+}
+.container{
+        height: 40vh;
+        width: 100vw;
+        margin-top: 200px;
+        margin-left: 280px;
+        justify-content: center;
+        position: absolute;
+       
+    }
+    .input-box{
+       
+        width: 300px;
+        padding: 7px;
+        padding-top: 7px;
+        border-radius: 5px;
+        margin-bottom: 13px;
+        margin-left: 30px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    #title{
+        margin-left: 30px;
+    }
+
+    </style>
+</head>
+<body>
+
+       <div class="container">
+        <h2 id="title">Customer Details</h2>
+        <form action="https://qa2.sunbasedata.com/sunbase/portal/api/assignment.jsp" method="post">
+        
+           <input type="text" class="input-box" placeholder="first name" name="first_name">
+           <input type="text" class="input-box" placeholder="last name" name="last_name"><br>
+           <input type="text" class="input-box" placeholder="street" name="street">
+           <input type="text" class="input-box" placeholder="Address" name="address"><br>
+           <input type="text" class="input-box" placeholder="city" name="city">
+           <input type="text" class="input-box" placeholder="state" name="state"><br>
+           <input type="text" class="input-box" placeholder="email" name="email">
+           <input type="text" class="input-box" placeholder="phone" name="phone">
+           <input type="submit" value="Submit" class="submit-button">
+       </form>
+    </div>
+        
+</body>
+</html>

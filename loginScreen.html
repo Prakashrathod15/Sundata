@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Integration</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="login_id">Username:</label>
+        <input type="text" id="login_id" name="login_id" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="button" onclick="authenticate()">Login</button>
+    </form>
+    <p id="loginStatus"></p>
+
+    <script>
+        function authenticate() {
+            // Make an API call to authenticate the user and receive the bearer token.
+            // You can use JavaScript's Fetch API or other libraries like Axios.
+            // After receiving the token, store it securely and proceed to the Customer List Screen.
+        }
+    </script>
+</body>
+</html>
